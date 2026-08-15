@@ -922,7 +922,7 @@ function MainWorkoutTab({ level, setLevel, week, setWeek, openTimer, done, toggl
 
   return (
     <div className="space-y-5 pb-24">
-      <div className="flex gap-2 overflow-x-auto pb-1">
+      <div className="flex gap-2 overflow-x-auto pb-1" style={{ minWidth: 0 }}>
         {Object.entries(LEVELS).map(([key, v]) => (
           <button
             key={key}
@@ -939,9 +939,9 @@ function MainWorkoutTab({ level, setLevel, week, setWeek, openTimer, done, toggl
         ))}
       </div>
 
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3" style={{ minWidth: 0 }}>
         <span className="text-xs shrink-0" style={{ color: C.textFaint }}>هفته:</span>
-        <div className="flex gap-1.5 overflow-x-auto">
+        <div className="flex gap-1.5 overflow-x-auto" style={{ minWidth: 0 }}>
           {[1, 2, 3, 4, 5, 6].map((w) => (
             <button
               key={w}
@@ -1137,8 +1137,9 @@ export default function App() {
   }
 
   return (
-    <div dir="rtl" lang="fa" style={{ background: C.bg, minHeight: "100%", fontFamily: "'Vazirmatn', Tahoma, sans-serif" }}>
+    <div dir="rtl" lang="fa" style={{ background: C.bg, minHeight: "100%", width: "100%", overflowX: "hidden", fontFamily: "'Vazirmatn', Tahoma, sans-serif" }}>
       <style>{FONT_IMPORT}</style>
+      <style>{`html, body { overflow-x: hidden; max-width: 100vw; }`}</style>
 
       <div className="max-w-md mx-auto px-4 pt-5">
         <header className="flex items-center justify-between mb-5">
