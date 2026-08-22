@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 
 /* ============================== DESIGN TOKENS ============================== */
-const C = {
+export const C = {
   bg: "#0C1614",
   bgSoft: "#0F1D1A",
   surface: "#152522",
@@ -28,7 +28,7 @@ const FONT_IMPORT = `@import url('https://fonts.googleapis.com/css2?family=Vazir
 
 /* ============================== PROGRAM DATA ============================== */
 
-const PHASES = [
+export const PHASES = [
   { n: 1, title: "تعادل و پایداری", weeks: "۶ هفته" },
   { n: 2, title: "استقامت عضلانی و پایداری", weeks: "۴ هفته" },
   { n: 3, title: "قدرت", weeks: "۴ هفته" },
@@ -36,12 +36,12 @@ const PHASES = [
   { n: 5, title: "توان انفجاری", weeks: "۴ هفته" },
 ];
 
-const EQUIPMENT = [
+export const EQUIPMENT = [
   "دمبل", "کتل‌بل", "جیم‌بال", "بوسوبال", "کش مقاومتی (چند سایز)",
   "بارفیکس / نقطه اتصال بالا", "فوم رول",
 ];
 
-const NUTRITION = {
+export const NUTRITION = {
   calories: "تقریباً ۳۵۰ تا ۴۰۰ کالری در هر جلسه (در صورت رعایت دقیق تمپو و استراحت)",
   preWorkout: [
     { label: "کربوهیدرات", value: "۰.۵ گرم به‌ازای هر کیلوگرم وزن بدن" },
@@ -53,7 +53,7 @@ const NUTRITION = {
   foamRolling: "شروع و پایان هر جلسه با فوم رول روی عضلات بیش‌فعال، برای ایمنی و سلامت عضلات",
 };
 
-const SAFETY = [
+export const SAFETY = [
   {
     icon: "shield",
     title: "قانون اصلی: کنترل مهم‌تر از شدته",
@@ -124,7 +124,7 @@ const SAFETY = [
   },
 ];
 
-const PATTERNS = [
+export const PATTERNS = [
   {
     id: "squat", name: "Squat Pattern", nameFa: "الگوی اسکوات",
     avoid: ["زانو به داخل", "قوس پا خوابیده", "پاشنه بلندشده", "کمر گرد", "کمر بیش‌ازحد گود",
@@ -151,7 +151,7 @@ const PATTERNS = [
   },
 ];
 
-const WARMUP = {
+export const WARMUP = {
   totalDuration: "تقریباً ۲۵ دقیقه — قبل از هر ۳ جلسه انجام بشه",
   parts: [
     {
@@ -236,14 +236,14 @@ const WARMUP = {
   ],
 };
 
-const SESSION_NOTES = {
+export const SESSION_NOTES = {
   rest: "۶۰ تا ۹۰ ثانیه بین ست‌ها",
   intensity: "۵۰ تا ۶۰٪ رکورد — طوری که بدونی تا آخر ست می‌تونی ادامه بدی",
   tempo: "۴ ثانیه فاز پایین (دم) → ۲ ثانیه مکث → فاز بالا (بازدم)",
   dropLevel: "اگه وسط ست خسته شدی، از نسخه پیشرفته به متوسط یا مبتدی افت کن ولی ست رو کامل کن",
 };
 
-const MOVEMENTS = {
+export const MOVEMENTS = {
   m1: {
     name: "استپ بالا و پایین تک پا", pattern: "squat",
     equipment: ["صندلی (سطح صاف)"],
@@ -333,7 +333,7 @@ const MOVEMENTS = {
   },
 };
 
-const progress = {
+export const progress = {
   default: (week) => {
     if (week <= 2) return { sets: 2, reps: 12, mode: "reps" };
     if (week <= 5) return { sets: 3, reps: 12, mode: "reps" };
@@ -347,13 +347,13 @@ const progress = {
   m6: () => ({ sets: 3, duration: 35, mode: "duration" }),
 };
 
-const LEVELS = {
+export const LEVELS = {
   beginner: { label: "مبتدی", slots: [1, 3, 5] },
   intermediate: { label: "متوسط", slots: [1, 2, 3, 5] },
   advanced: { label: "پیشرفته", slots: [1, 2, 3, 4, 5, 6] },
 };
 
-const DAY1_SLOTS = [
+export const DAY1_SLOTS = [
   { slot: 1, type: "single", ids: ["m1"], prog: "default" },
   { slot: 2, type: "single", ids: ["m2"], prog: "default" },
   { slot: 3, type: "alt", ids: ["m3a", "m3b"], prog: "default" },
@@ -362,7 +362,7 @@ const DAY1_SLOTS = [
   { slot: 6, type: "single", ids: ["m6"], prog: "m6" },
 ];
 
-const COOLDOWN = {
+export const COOLDOWN = {
   duration: "حدود ۱۰ دقیقه — کشش عضلات درگیر یا گرفته",
   moves: [
     {
@@ -382,7 +382,7 @@ const COOLDOWN = {
 /* ============================== VIDEO LINKS ============================== */
 // وقتی ویدیوها روی یوتیوب (Private) آپلود شدن، فقط همین‌جا video-id هر فایل رو پر کن.
 // مثال: "Warm-up1": "dQw4w9WgXcQ"  (فقط همون کد بعد از v= تو لینک یوتیوب، بدون بقیه‌ی آدرس)
-const VIDEO_IDS = {
+export const VIDEO_IDS = {
   "Warm-up1": "CIhEdYm8Ju4",
   "Warm-up2": "4M9s65jYTjM",
   "Warm-up3": "_lZcXpfmRqg",
