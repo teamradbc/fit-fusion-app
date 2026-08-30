@@ -174,7 +174,7 @@ function VideoPreview({ video, title, compact = false }) {
   const start = timeToSeconds(video.t);
   const end = video.end ? timeToSeconds(video.end) : null;
   const source = `https://www.youtube-nocookie.com/embed/${videoId}?start=${start}${end ? `&end=${end}` : ""}&autoplay=1&rel=0`;
-  const thumbnail = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+  const thumbnail = video.poster || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 
   return (
     <>

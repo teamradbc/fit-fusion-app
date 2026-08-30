@@ -158,11 +158,12 @@ export const WARMUP = {
       id: "raise", title: "۱. گرم‌کردن اولیه (بالابردن دمای بدن)",
       sections: [
         { moves: [
-          { name: "موبیلیتی مچ پا رو به دیوار", reps: "۱۰ تکرار هر پا", cues: ["فاصله پا از دیوار به‌اندازه یک پنجه", "با کنترل زانو رو ببر تا دیوار و برگردون، بدون مکث"], video: { file: "Warm-up1", t: "00:00:44", end: "00:01:48" } },
-          { name: "نشستن روی دیوار (کم‌عمق) + بلندشدن پنجه", reps: "۱۰ تکرار", cues: ["عمق کم، چون پا هنوز گرم نیست", "پنجه رو بکش بالا"], video: { file: "Warm-up1", t: "00:01:48", end: "00:02:39" } },
-          { name: "نشستن دو زانو (کشش جلوی ران)", reps: "چند نفس عمیق", cues: ["با عضلات جلوی پا کنترل کن، نه با فیله کمر"], video: { file: "Warm-up1", t: "00:02:39", end: "00:03:16" } },
-          { name: "لانج متناوب سبک", reps: "هر طرف چند بار", cues: ["پای عقب دوباره برمی‌گرده", "اگه فشار داره، ورژن کوتاه‌تر (بالا-پایین جزئی)"], video: { file: "Warm-up1", t: "00:03:16", end: "00:03:53" } },
-          { name: "ایروبیک سبک (Zone 2)", reps: "۲–۳ دقیقه", cues: ["تردمیل/طناب/مارش/موزیک — هرچی داری", "باید بتونی حرف بزنی بدون نفس‌نفس زدن"], video: { file: "Warm-up1", t: "00:03:53", end: "00:06:39" } },
+          { name: "Wall Ankle Mobility", reps: "۱۰ تکرار هر پا", cues: ["فاصله پا از دیوار به‌اندازه یک پنجه", "با کنترل زانو رو ببر تا دیوار و برگردون، بدون مکث"], video: { file: "Phase 1 Warm up1", t: "00:00:44", end: "00:01:48", poster: "/thumbnails/1-wall-ankle-mobility.webp" } },
+          { name: "Wall Calf", reps: "۱۰ تکرار", cues: ["در یک وال‌سیت کم‌عمق بمان تا زانو و لگن کنترل‌شده باشند", "پاشنه‌ها را بالا ببر و با کنترل کامل پایین بیاور"], video: { file: "Phase 1 Warm up1", t: "00:01:48", end: "00:02:16", poster: "/thumbnails/2-wall-calf.webp" } },
+          { name: "Tib Raises", reps: "۱۰ تکرار", cues: ["پاشنه‌ها روی زمین بمانند و پنجه‌ها را به سمت ساق بالا بکش", "بدن به دیوار تکیه داشته باشد و حرکت را بدون تاب‌دادن انجام بده"], video: { file: "Phase 1 Warm up1", t: "00:02:16", end: "00:02:38", poster: "/thumbnails/3-tib-raises.webp" } },
+          { name: "Reverse Nordic", reps: "چند نفس عمیق", cues: ["با عضلات جلوی پا کنترل کن، نه با فیله کمر"], video: { file: "Phase 1 Warm up1", t: "00:02:38", end: "00:03:16", poster: "/thumbnails/4-reverse-nordic.webp" } },
+          { name: "Kneeling Lunge Switch", reps: "هر طرف چند بار", cues: ["پای عقب دوباره برمی‌گرده", "اگه فشار داره، ورژن کوتاه‌تر (بالا-پایین جزئی)"], video: { file: "Phase 1 Warm up1", t: "00:03:16", end: "00:03:53", poster: "/thumbnails/5-kneeling-lunge-switch.webp" } },
+          { name: "Light Cardio", reps: "۲–۳ دقیقه", cues: ["تردمیل/طناب/مارش/موزیک — هرچی داری", "باید بتونی حرف بزنی بدون نفس‌نفس زدن"], video: { file: "Phase 1 Warm up1", t: "00:03:53", end: "00:06:39", poster: "/thumbnails/6-light-cardio.webp" } },
         ]},
       ],
     },
@@ -170,37 +171,37 @@ export const WARMUP = {
       id: "mobilize", title: "۲. موبیلیتی مفاصل",
       sections: [
         { region: "گردن", moves: [
-          { name: "گردن: چپ و راست", reps: "چند تکرار", cues: ["انگار می‌خوای نقطه‌کور پشت شونه‌تو ببینی", "بدون مکس"], video: { file: "Warm-up1", t: "00:06:39", end: "00:07:14" } },
-          { name: "گردن: بالا و پایین (چانه)", reps: "چند تکرار", cues: ["فقط چونه میاد، گردن خم نمی‌شه", "با کنترل، بدون حرکت شلاقی"], video: { file: "Warm-up1", t: "00:07:14", end: "00:07:55" } },
-          { name: "گردن: نیم‌دایره جلو و عقب", reps: "چند تکرار هرکدام", cues: ["در تمام مسیر نقطه‌کور رو دنبال کن"], video: { file: "Warm-up1", t: "00:07:55", end: "00:08:44" } },
+          { name: "Neck Rotations", reps: "چند تکرار", cues: ["انگار می‌خوای نقطه‌کور پشت شونه‌تو ببینی", "بدون مکس"], video: { file: "Phase 1 Warm up1", t: "00:06:39", end: "00:07:14", poster: "/thumbnails/7-neck-rotations.webp" } },
+          { name: "Neck Nods", reps: "چند تکرار", cues: ["فقط چونه میاد، گردن خم نمی‌شه", "با کنترل، بدون حرکت شلاقی"], video: { file: "Phase 1 Warm up1", t: "00:07:14", end: "00:07:55", poster: "/thumbnails/8-neck-nods.webp" } },
+          { name: "Neck Half Circles", reps: "چند تکرار هرکدام", cues: ["در تمام مسیر نقطه‌کور رو دنبال کن"], video: { file: "Phase 1 Warm up1", t: "00:07:55", end: "00:08:44", poster: "/thumbnails/9-neck-half-circles.webp" } },
         ]},
         { region: "شونه و کتف", moves: [
-          { name: "شونه: دایره بازو رو به جلو", reps: "چند تکرار", cues: ["کتف از پشت همراه دست بالا بیاد", "بالا: کف دست به هم؛ پایین: کف دست به پا"], video: { file: "Warm-up1", t: "00:08:44", end: "00:09:27" } },
-          { name: "شونه: دایره بازو معکوس", reps: "چند تکرار", cues: ["دایره معمولی، نه خیلی بزرگ", "دست از راستای بدن جلو نیاد"], video: { file: "Warm-up1", t: "00:09:27", end: "00:09:52" } },
-          { name: "شونه با کش: چرخش کنترل‌شده", reps: "چند تکرار", cues: ["آروم برو، تا هرجا درد گرفت همونجا نگه دار", "فقط عقب و جلو، بدون مکس"], video: { file: "Warm-up1", t: "00:09:52", end: "00:10:16" } },
-          { name: "کش: چرخش بازو محوری", reps: "هر طرف", cues: ["فقط دست تو محور حرکت کنه، آرنج صاف", "کار قدرتی نیست، فقط موبیلیتی"], video: { file: "Warm-up2", t: "00:00:00", end: "00:00:24" } },
-          { name: "کش پشت بدن: کشش متناوب بالا/پایین", reps: "چند تکرار", cues: ["فاصله رو تنظیم کن تا کشش کامل حس بشه"], video: { file: "Warm-up2", t: "00:00:24", end: "00:00:53" } },
-          { name: "کش پشت: باز کردن با چرخش", reps: "چند تکرار", cues: ["دست‌ها لازم نیست ۹۰ درجه به هم برسن", "موازی هم می‌مونن پشت بدن"], video: { file: "Warm-up2", t: "00:00:53", end: "00:01:54" } },
-          { name: "کش نشسته: کشش سه‌ضلعی", reps: "هر ضلع", cues: ["دو ضلع روبه‌رو رو بکش، بعد هر سه ضلع رو باز کن"], video: { file: "Warm-up2", t: "00:01:54", end: "00:02:25" } },
-          { name: "وال‌ساید (Wall Slide)", reps: "چند تکرار", cues: ["کمر، سر و لگن به دیوار چسبیده", "گودی کمر رو با سفت‌کردن Core پر کن، شونه از دیوار جدا نشه"], video: { file: "Warm-up2", t: "00:02:25", end: "00:03:18" } },
-          { name: "کشش عضلات دنده‌ای/کتف با دیوار", reps: "چند تکرار (+ اختیاری با کش)", cues: ["ساعد در تمام مسیر روی دیوار بمونه", "برای عضلات تثبیت‌کننده کتف از بغل"], video: { file: "Warm-up2", t: "00:03:18", end: "00:04:28" } },
+          { name: "Front Arm Raises", reps: "چند تکرار", cues: ["دست‌ها را از جلوی بدن با کنترل بالا ببر", "کتف‌ها همراه حرکت دست بچرخند و شانه‌ها را به زور بالا نکش"], video: { file: "Phase 1 Warm up1", t: "00:08:44", end: "00:09:10", poster: "/thumbnails/10-front-arm-raises.webp" } },
+          { name: "Side Arm Raises", reps: "چند تکرار", cues: ["دست‌ها را از کنار بدن بالا ببر و آرنج‌ها نرم بمانند", "تنه ثابت بماند و برای افزایش دامنه به پهلو خم نشو"], video: { file: "Phase 1 Warm up1", t: "00:09:10", end: "00:09:27", poster: "/thumbnails/11-side-arm-raises.webp" } },
+          { name: "Arm Circles", reps: "چند تکرار", cues: ["دایره معمولی، نه خیلی بزرگ", "دست از راستای بدن جلو نیاد"], video: { file: "Phase 1 Warm up1", t: "00:09:27", end: "00:09:52", poster: "/thumbnails/12-arm-circles.webp" } },
+          { name: "Band Pass-Throughs", reps: "چند تکرار", cues: ["آروم برو، تا هرجا درد گرفت همونجا نگه دار", "فقط عقب و جلو، بدون مکس"], video: { file: "Phase 1 Warm up1", t: "00:09:54", end: "00:10:41", poster: "/thumbnails/13-band-pass-throughs.webp" } },
+          { name: "Banded Around the World", reps: "هر طرف", cues: ["فقط دست تو محور حرکت کنه، آرنج صاف", "کار قدرتی نیست، فقط موبیلیتی"], video: { file: "Phase 1 Warm up2", t: "00:00:00", end: "00:00:24", poster: "/thumbnails/14-banded-around-the-world.webp" } },
+          { name: "Banded Side Stretch", reps: "چند تکرار", cues: ["فاصله رو تنظیم کن تا کشش کامل حس بشه"], video: { file: "Phase 1 Warm up2", t: "00:00:24", end: "00:00:53", poster: "/thumbnails/15-banded-side-stretch.webp" } },
+          { name: "Alternating Shoulder Stretch", reps: "چند تکرار", cues: ["دست‌ها لازم نیست ۹۰ درجه به هم برسن", "موازی هم می‌مونن پشت بدن"], video: { file: "Phase 1 Warm up2", t: "00:00:53", end: "00:01:54", poster: "/thumbnails/16-alternating-shoulder-stretch.webp" } },
+          { name: "Seated Band Y-Raise", reps: "هر ضلع", cues: ["دو ضلع روبه‌رو رو بکش، بعد هر سه ضلع رو باز کن"], video: { file: "Phase 1 Warm up2", t: "00:01:54", end: "00:02:25", poster: "/thumbnails/17-seated-band-y-raise.webp" } },
+          { name: "Wall Slide", reps: "چند تکرار", cues: ["کمر، سر و لگن به دیوار چسبیده", "گودی کمر رو با سفت‌کردن Core پر کن، شونه از دیوار جدا نشه"], video: { file: "Phase 1 Warm up2", t: "00:02:25", end: "00:03:18", poster: "/thumbnails/18-wall-slide.webp" } },
+          { name: "Forearm Wall Slide", reps: "چند تکرار (+ اختیاری با کش)", cues: ["ساعد در تمام مسیر روی دیوار بمونه", "برای عضلات تثبیت‌کننده کتف از بغل"], video: { file: "Phase 1 Warm up2", t: "00:03:18", end: "00:04:28", poster: "/thumbnails/19-forearm-wall-slide.webp" } },
         ]},
         { region: "ستون فقرات / تنه", moves: [
-          { name: "کش: کشش کمر جلو و عقب", reps: "چند تکرار", cues: ["دم کمر رو جلو و عقب بکش", "قلنج شنیدنش اشکالی نداره"], video: { file: "Warm-up1", t: "00:10:16" } },
-          { name: "چرخش ملایم بالاتنه", reps: "چند تکرار", cues: ["نه خیلی شدید، فقط یه چرخش ملایم"], video: { file: "Warm-up2", t: "00:04:28", end: "00:04:55" } },
-          { name: "مهره وسط (نشسته)", reps: "۱۰–۱۵ تکرار", cues: ["شونه‌ها ثابت، کتف بیفته، گودی کمر ایجاد کن"], video: { file: "Warm-up2", t: "00:04:55", end: "00:05:47" } },
-          { name: "Open Book (چرخش ستون فقرات میانی)", reps: "هر طرف (+ اختیاری با کش)", cues: ["چرخش از مهره‌های وسط (۶ تا ۱۷/۱۸)، نه از پایین", "نگاهت کف دستتو دنبال کنه", "برای دیسک کمر مضر نیست اگه درست انجام بشه"], video: { file: "Warm-up2", t: "00:05:47", end: "00:07:46" } },
-          { name: "نسخه نشسته با تمرکز شونه", reps: "هر طرف (+ اختیاری با کش)", cues: ["لگن سمت دیوار بچسبه به دیوار", "نگاهت دستتو دنبال کنه"], video: { file: "Warm-up2", t: "00:07:26", end: "00:08:55" } },
+          { name: "Trunk Rotations", reps: "چند تکرار", cues: ["نه خیلی شدید، فقط یه چرخش ملایم"], video: { file: "Phase 1 Warm up2", t: "00:04:28", end: "00:04:55", poster: "/thumbnails/20-trunk-rotations.webp" } },
+          { name: "Seated Cat-Cow", reps: "۱۰–۱۵ تکرار", cues: ["شونه‌ها ثابت، کتف بیفته، گودی کمر ایجاد کن"], video: { file: "Phase 1 Warm up2", t: "00:04:55", end: "00:05:47", poster: "/thumbnails/21-seated-cat-cow.webp" } },
+          { name: "Open Book", reps: "هر طرف (+ اختیاری با کش)", cues: ["چرخش از مهره‌های وسط (۶ تا ۱۷/۱۸)، نه از پایین", "نگاهت کف دستتو دنبال کنه", "برای دیسک کمر مضر نیست اگه درست انجام بشه"], video: { file: "Phase 1 Warm up2", t: "00:05:47", end: "00:07:26", poster: "/thumbnails/22-open-book.webp" } },
+          { name: "Half-Kneeling Rotation", reps: "هر طرف (+ اختیاری با کش)", cues: ["لگن سمت دیوار بچسبه به دیوار", "نگاهت دستتو دنبال کنه"], video: { file: "Phase 1 Warm up2", t: "00:07:27", end: "00:08:55", poster: "/thumbnails/23-half-Kneeling-rotation.webp" } },
         ]},
         { region: "لگن", moves: [
-          { name: "لگن: فلکشن، اکستنشن، ابداکشن، ادداکشن، چرخش خارجی ۴۵°", reps: "۵ تکرار هرجهت، هر پا", cues: ["اگه لازم داری برای تعادل، دستتو بذار جایی"], video: { file: "Warm-up2", t: "00:08:55" } },
-          { name: "ترکیب چندجهته لگن روی زمین", reps: "۵ تکرار هر طرف", cues: ["جلو، عقب و چرخش رو با هم در یک مسیر انجام بده"], video: { file: "Warm-up3", t: "00:00:00", end: "00:01:02" } },
-          { name: "همون حرکت با فوم رول / دیوار (ساپورت)", reps: "۵ تکرار هر طرف", cues: ["اگه فوم رول نداری، نسخه نشسته رو بیشتر کار کن"], video: { file: "Warm-up3", t: "00:01:02", end: "00:01:46" } },
-          { name: "چرخش لگن ایستاده (پنجه رو‌به‌رو)", reps: "چند تکرار", cues: ["بالاتنه ثابت بمونه، فقط لگن/مچ/زانو بچرخه", "زانوها ۹۰ درجه می‌چرخه"], video: { file: "Warm-up3", t: "00:01:46", end: "00:02:32" } },
-          { name: "نشسته ۹۰/۹۰ چرخش لگن", reps: "چند تکرار", cues: ["وزنتو خیلی عقب نندازی، چالش روی لگن حفظ بشه"], video: { file: "Warm-up3", t: "00:02:32", end: "00:03:14" } },
+          { name: "Six-Way Hip Mobility", reps: "۵ تکرار هرجهت، هر پا", cues: ["اگه لازم داری برای تعادل، دستتو بذار جایی"], video: { file: "Phase 1 Warm up2", t: "00:08:58", end: "00:11:11", poster: "/thumbnails/24-six-way-hip-mobility.webp" } },
+          { name: "Quadruped Hip CARs", reps: "۵ تکرار هر طرف", cues: ["جلو، عقب و چرخش رو با هم در یک مسیر انجام بده"], video: { file: "Phase 1 Warm up3", t: "00:00:00", end: "00:01:02", poster: "/thumbnails/25-quadruped-hip-cars.webp" } },
+          { name: "Supported Hip CARs", reps: "۵ تکرار هر طرف", cues: ["اگه فوم رول نداری، نسخه نشسته رو بیشتر کار کن"], video: { file: "Phase 1 Warm up3", t: "00:01:02", end: "00:01:46", poster: "/thumbnails/26-supported-hip-cars.webp" } },
+          { name: "Standing 90/90 Switch", reps: "چند تکرار", cues: ["بالاتنه ثابت بمونه، فقط لگن/مچ/زانو بچرخه", "زانوها ۹۰ درجه می‌چرخه"], video: { file: "Phase 1 Warm up3", t: "00:01:46", end: "00:02:32", poster: "/thumbnails/27-standing-90.90-switch.webp" } },
+          { name: "Seated 90/90 Switch", reps: "چند تکرار", cues: ["وزنتو خیلی عقب نندازی، چالش روی لگن حفظ بشه"], video: { file: "Phase 1 Warm up3", t: "00:02:32", end: "00:03:14", poster: "/thumbnails/28-seated-90.90-switch.webp" } },
         ]},
         { region: "مچ‌دست", moves: [
-          { name: "مچ دست: چرخش و وزن‌اندازی ملایم", reps: "چند تکرار", cues: ["وزن رو کامل روی مچ نندازی، خیلی نرم باش"], video: { file: "Warm-up3", t: "00:03:14", end: "00:04:32" } },
+          { name: "Wrist Mobility", reps: "چند تکرار", cues: ["وزن رو کامل روی مچ نندازی، خیلی نرم باش"], video: { file: "Phase 1 Warm up3", t: "00:03:14", end: "00:04:32", poster: "/thumbnails/29-wrist-mobility.webp" } },
         ]},
       ],
     },
@@ -208,9 +209,9 @@ export const WARMUP = {
       id: "activate", title: "۳. فعال‌سازی عضلات کلیدی",
       sections: [
         { moves: [
-          { name: "شنا زانو زده", reps: "چند تکرار", cues: ["دایموند یا باز — دست تو زاویه باشه که شونه درد نگیره"], video: { file: "Warm-up3", t: "00:04:32", end: "00:05:11" } },
-          { name: "کش: پشت بازو (فعال‌سازی)", reps: "هر طرف", cues: ["بازو چسبیده به گوش، انگار پشت‌بازو می‌زنی"], video: { file: "Warm-up3", t: "00:05:11", end: "00:05:53" } },
-          { name: "پل باسن", reps: "چند تکرار", cues: ["گودی کمر رو بالا نیار، احساس کن پشت پا هم منقبض می‌شه"], video: { file: "Warm-up3", t: "00:05:53", end: "00:06:47" } },
+          { name: "Kneeling Push-Ups", reps: "چند تکرار", cues: ["دایموند یا باز — دست تو زاویه باشه که شونه درد نگیره"], video: { file: "Phase 1 Warm up3", t: "00:04:32", end: "00:05:11", poster: "/thumbnails/30-kneeling-push-ups.webp" } },
+          { name: "Banded Overhead Triceps", reps: "هر طرف", cues: ["بازو چسبیده به گوش، انگار پشت‌بازو می‌زنی"], video: { file: "Phase 1 Warm up3", t: "00:05:11", end: "00:05:53", poster: "/thumbnails/31-banded-overhead-triceps.webp" } },
+          { name: "Glute Bridges", reps: "چند تکرار", cues: ["گودی کمر رو بالا نیار، احساس کن پشت پا هم منقبض می‌شه"], video: { file: "Phase 1 Warm up3", t: "00:05:53", end: "00:06:47", poster: "/thumbnails/32-glute-bridges.webp" } },
         ]},
       ],
     },
@@ -218,8 +219,8 @@ export const WARMUP = {
       id: "potentiate", title: "۴. تمرین الگوی حرکتی (مشابه تمرین اصلی)",
       sections: [
         { moves: [
-          { name: "اسکوات اورهد (دامنه محدود تا ۹۰°)", reps: "چند تکرار", cues: ["بازو از گوش جدا نشه", "بدن جلو نیاد، گودی کمر زیاد نشه"], video: { file: "Warm-up3", t: "00:06:47", end: "00:07:28" } },
-          { name: "هیپ هینج تمرینی (با چوب/دیوار/فوم‌رول)", reps: "چند تکرار", cues: ["خم‌شدن از کمر بدون قوس کردن کمر"], video: { file: "Warm-up3", t: "00:07:28", end: "00:08:17" } },
+          { name: "Overhead Squat", reps: "چند تکرار", cues: ["بازو از گوش جدا نشه", "بدن جلو نیاد، گودی کمر زیاد نشه"], video: { file: "Phase 1 Warm up3", t: "00:06:47", end: "00:07:28", poster: "/thumbnails/33-overhead-squat.webp" } },
+          { name: "Hip Hinge Drill", reps: "چند تکرار", cues: ["خم‌شدن از کمر بدون قوس کردن کمر"], video: { file: "Phase 1 Warm up3", t: "00:07:28", end: "00:08:17", poster: "/thumbnails/34-hip-hinge-drill.webp" } },
         ]},
       ],
     },
@@ -227,9 +228,9 @@ export const WARMUP = {
       id: "plyo", title: "۵. آماده‌سازی پلایومتریک (پایه فاز ۴/۵)",
       sections: [
         { moves: [
-          { name: "⭐ فرود نرم دو پا (Pogo Prep)", reps: "چند تکرار", plyoFoundation: true, cues: ["پا فقط به زمین ضربه بزنه، خیلی نرم", "برای شدت بیشتر: دست از بدنت رد بشه"], video: { file: "Warm-up3", t: "00:08:48", end: "00:09:49" } },
-          { name: "⭐ پگو جامپ", reps: "تا خستگی خفیف ساق", plyoFoundation: true, cues: ["پنجه بالا، با پاشنه زمین نخور", "بیومکانیک کار می‌کنه، نه زحمت تو"], video: { file: "Warm-up3", t: "00:09:49", end: "00:10:54" } },
-          { name: "⭐ لانج جهشی سبک (تمرکز روی فرود)", reps: "چند تکرار هر پا", plyoFoundation: true, cues: ["روی فرود تمرکز کن نه روی پرش", "زمان تماس با زمین زیر نیم‌ثانیه"], video: { file: "Warm-up3", t: "00:10:54" } },
+          { name: "Snap Down", reps: "چند تکرار", plyoFoundation: true, cues: ["پا فقط به زمین ضربه بزنه، خیلی نرم", "برای شدت بیشتر: دست از بدنت رد بشه"], video: { file: "Phase 1 Warm up3", t: "00:08:48", end: "00:09:49", poster: "/thumbnails/35-snap-down.webp" } },
+          { name: "Pogo Jumps", reps: "تا خستگی خفیف ساق", plyoFoundation: true, cues: ["پنجه بالا، با پاشنه زمین نخور", "بیومکانیک کار می‌کنه، نه زحمت تو"], video: { file: "Phase 1 Warm up3", t: "00:09:49", end: "00:10:56", poster: "/thumbnails/36-pogo-jumps.webp" } },
+          { name: "Alternating Jump Lunges", reps: "چند تکرار هر پا", plyoFoundation: true, cues: ["روی فرود تمرکز کن نه روی پرش", "زمان تماس با زمین زیر نیم‌ثانیه"], video: { file: "Phase 1 Warm up3", t: "00:10:56", end: "00:11:54", poster: "/thumbnails/37-alternating-jump-lunges.webp" } },
         ]},
       ],
     },
@@ -245,7 +246,7 @@ export const SESSION_NOTES = {
 
 export const MOVEMENTS = {
   m1: {
-    name: "استپ بالا و پایین تک پا", pattern: "squat",
+    name: "Lateral Step-Down", pattern: "squat",
     equipment: ["صندلی (سطح صاف)"],
     cues: [
       "زانو در راستای انگشت دوم و سوم پا (نه به سمت شست، نه به سمت انگشت کوچیک)",
@@ -253,10 +254,10 @@ export const MOVEMENTS = {
       "پایین رفتن با کنترل کامل تا نوک پنجه؛ جایی که کنترل از دست رفت، ادامه نده",
     ],
     variantEasy: "با یک توپ کنار دیوار: زانوی پای بالا رو پشت زانوی پای ستون بذار و پایین بیا",
-    video: { file: "Day1-Set1", t: "00:00:00" },
+    video: { file: "Day1-Set1", t: "00:00:00", end: "00:02:45", poster: "/thumbnails/38-lateral-step-down.webp" },
   },
   m2: {
-    name: "ددلیفت رومانی تک‌دمبل", pattern: "hinge",
+    name: "B-Stance RDL", pattern: "hinge",
     equipment: ["دمبل", "چوب/دسته جارو (برای تمرین فرم)"],
     cues: [
       "سینه و لگن هم‌راستا و هم‌زمان حرکت کنن (نه اول سینه، بعد لگن)",
@@ -266,10 +267,10 @@ export const MOVEMENTS = {
     variantEasy: "بدون وزنه یا با هر دو دست، یک پا جلو — حتماً این نسخه رو حتی در سطح پیشرفته هم اول تمرین کن",
     variantAdvanced: "دمبل در دست مخالفِ پای جلو",
     note: "مناسب افراد دارای دیسک کمر یا سیاتیک هم هست، به‌شرط رعایت دقیق تکنیک",
-    video: { file: "Day1-Set2", t: "00:00:00" },
+    video: { file: "Day1-Set2", t: "00:00:00", end: "00:04:00", poster: "/thumbnails/39-b-stance-rdl.webp" },
   },
   m3a: {
-    name: "پرس سینه روی جیم‌بال (تک‌دست)", pattern: "push",
+    name: "Single-Arm Ball Press", pattern: "push",
     equipment: ["دمبل", "جیم‌بال"],
     cues: [
       "آرنج کمی به سمت جلو، نه دقیقاً در خط شونه (کاهش فشار جلوی شونه)",
@@ -277,10 +278,10 @@ export const MOVEMENTS = {
       "پاها به اندازه عرض شونه باز باشه",
     ],
     variantEasy: "به پشت روی زمین دراز بکش و همون حرکت رو انجام بده",
-    video: { file: "Day1-Set3", t: "00:00:55", end: "00:03:13" },
+    video: { file: "Day1-Set3", t: "00:00:55", end: "00:03:13", poster: "/thumbnails/40-single-arm-ball-press.webp" },
   },
   m3b: {
-    name: "روئینگ گوریلا (تک‌دست)", pattern: "pull",
+    name: "Supported Gorilla Row", pattern: "pull",
     equipment: ["دمبل", "بالشت/توپ برای ساپورت دست دیگر"],
     cues: [
       "باسن پایین‌تر از سینه نگه داشته بشه (پوزیشن گوریلا)",
@@ -288,10 +289,10 @@ export const MOVEMENTS = {
       "لگن رو پایین نگه داشتن = گودی کمر پر می‌شه، نه گود می‌شه",
     ],
     variantEasy: "چهار دست و پای معمولی، بدون نگه‌داشتن لگن پایین (پایداری کمتر لازم)",
-    video: { file: "Day1-Set3", t: "00:03:13" },
+    video: { file: "Day1-Set3", t: "00:03:13", end: "00:05:40", poster: "/thumbnails/41-supported-gorilla-row.webp" },
   },
   m4a: {
-    name: "فلای سینه با کش، تک‌دست، نیم‌زانو روی بوسوبال", pattern: "push",
+    name: "Single-Arm Band Chest Fly", pattern: "push",
     optional: true,
     equipment: ["کش", "بوسوبال (یا زمین/بالش)"],
     cues: [
@@ -299,29 +300,29 @@ export const MOVEMENTS = {
       "همزمان یک کار ضد چرخش هم انجام می‌شه — در برابر چرخش کش مقاومت کن",
       "پاهای بازتر روی بوسوبال = چالش تعادل بیشتر",
     ],
-    video: { file: "Day1-Set4", t: "00:00:00" },
+    video: { file: "Day1-Set4", t: "00:00:00", end: "00:01:25", poster: "/thumbnails/42-single-arm-band-chest-fly.webp" },
   },
   m4b: {
-    name: "فلای سرشونه با کش، تک‌دست، نیم‌زانو روی بوسوبال", pattern: "pull",
+    name: "Single-Arm Band Reverse Fly", pattern: "pull",
     equipment: ["کش", "بوسوبال"],
     cues: [
       "فقط تا جایی عقب بکش که کشش طناب حفظ بشه (کامل جلو نبر)",
       "کامل بکش عقب بدون اینکه تنه بچرخه — حرکت ضد چرخشی",
     ],
-    video: { file: "Day1-Set4", t: "00:01:25" },
+    video: { file: "Day1-Set4", t: "00:01:25", end: "00:02:30", poster: "/thumbnails/43-single-arm-band-reverse-fly.webp" },
   },
   m5: {
-    name: "پشت بازو با کش، تک‌دست، نیم‌زانو (چکشی کنار گوش)", pattern: "push",
+    name: "Cross-Body Band Triceps", pattern: "push",
     equipment: ["کش"],
     cues: [
       "آرنج رو با دست مخالف ثابت نگه دار — فقط آرنج حرکت کنه",
       "دست رو تا دم گوش بیار بالا، در ارتفاع شونه یا کمی بالاتر",
       "فاصله از تکیه‌گاه کش رو طوری تنظیم کن که کشش متناسب باشه",
     ],
-    video: { file: "Day1-Set5", t: "00:00:00" },
+    video: { file: "Day1-Set5", t: "00:00:00", end: "00:01:04", poster: "/thumbnails/44-cross-body-band-triceps.webp" },
   },
   m6: {
-    name: "Anti-Extension ایزومتریک با کش، نیم‌زانو (کور)", pattern: "core",
+    name: "Overhead Anti-Extension Hold", pattern: "core",
     equipment: ["کش"],
     cues: [
       "کش می‌کشدت به سمت باز شدن — تو در برابرش مقاومت می‌کنی (ضد باز شدن)",
@@ -329,7 +330,7 @@ export const MOVEMENTS = {
       "این پایه‌ی Anti-extension / Anti-flexion / Anti-rotation برای تقویت Core و بافت‌های پیوندیه",
     ],
     safetyNote: "اگر مشکل کمر داری: فشار خیلی سبک، فقط تا حدی که عضلات تحتانی ستون فقرات فعال بشن، بدون چالش زیاد",
-    video: { file: "Day1-Set6", t: "00:00:00" },
+    video: { file: "Day1-Set6", t: "00:00:00", end: "00:01:13", poster: "/thumbnails/45-overhead-anti-extension-hold.webp" },
   },
 };
 
@@ -366,14 +367,14 @@ export const COOLDOWN = {
   duration: "حدود ۱۰ دقیقه — کشش عضلات درگیر یا گرفته",
   moves: [
     {
-      name: "کشش کودک / ستون فقرات (روی زمین)",
+      name: "Extended Child’s Pose",
       hold: "۳۰ تا ۶۰ ثانیه",
       cues: [
         "لگن و دست‌ها رو از هم دور کن، دنبالچه کشیده بشه عقب و دست کشیده بشه جلو",
         "لگن رو بالا نگه ندار، بذار کاملاً پایین بیفته",
         "تمرکز روی ریلکس‌شدن عضلات پایین کمر که تحت فشار زیادی بودن",
       ],
-      video: { file: "Cool_down", t: "00:00:57" },
+      video: { file: "Cool Down", t: "00:00:00", end: "00:02:23", poster: "/thumbnails/46-cool-down-extended-childs-pose.webp" },
     },
   ],
   note: "بعد از هر جلسه که کمر تحت فشار بوده، وقت بذار تا Lower Back به حالت اولیه برگرده — طبیعیه که کشش بیشتری از قبل تمرین حس کنی.",
@@ -383,16 +384,16 @@ export const COOLDOWN = {
 // وقتی ویدیوها روی یوتیوب (Private) آپلود شدن، فقط همین‌جا video-id هر فایل رو پر کن.
 // مثال: "Warm-up1": "dQw4w9WgXcQ"  (فقط همون کد بعد از v= تو لینک یوتیوب، بدون بقیه‌ی آدرس)
 export const VIDEO_IDS = {
-  "Warm-up1": "CIhEdYm8Ju4",
-  "Warm-up2": "4M9s65jYTjM",
-  "Warm-up3": "_lZcXpfmRqg",
+  "Phase 1 Warm up1": "CIhEdYm8Ju4",
+  "Phase 1 Warm up2": "4M9s65jYTjM",
+  "Phase 1 Warm up3": "_lZcXpfmRqg",
   "Day1-Set1": "zMr2eQtuwNc",
   "Day1-Set2": "gvcwPWaX5yc",
   "Day1-Set3": "cnD72ZQy0LQ",
   "Day1-Set4": "4C-pWOSJ_SI",
   "Day1-Set5": "VNe3HDtABL8",
   "Day1-Set6": "Ex8qH38niaU",
-  "Cool_down": "K7ODd6-Guig",
+  "Cool Down": "K7ODd6-Guig",
   "Introduction": "fisvjhsDQQQ",
   "Nokat-Sabet": "DnU-rvLx5eI",
 };
